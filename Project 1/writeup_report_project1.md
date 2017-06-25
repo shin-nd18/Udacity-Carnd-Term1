@@ -21,11 +21,11 @@ The goals / steps of this project are the following:
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline consisted of 5 steps.
- First, I convert the image to grayscale.
- Second, I use "Canny Edge Detection" to the grayscale image.
- Third, I cut off the triangle region with two lane lines.
- Fourth, I use "Hough Transform" and find the lane lines from the previous image.
- Fifth, I draw red lines as detected lane lines on the original image.
+ First, I convert the image to grayscale.  
+ Second, I use "Canny Edge Detection" to the grayscale image.  
+ Third, I cut off the triangle region with two lane lines.  
+ Fourth, I use "Hough Transform" and find the lane lines from the previous image.  
+ Fifth, I draw red lines as detected lane lines on the original image.  
 
 In fourth step, the found lines are not perfect lines if lane lines are dotted lines. In order to draw lines in this case, I used the least squares method in draw_lines() function and detected fitting lines.
 
