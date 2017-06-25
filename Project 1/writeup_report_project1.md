@@ -29,13 +29,12 @@ My pipeline consisted of 5 steps.
 
 In fourth step, the found lines are not perfect lines if lane lines are dotted lines. In order to draw lines in this case, I used the least squares method in draw_lines() function and detected fitting lines.
 
-![alt text][image1]
+![image1]
 
-![alt text][image2]
+![image2]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
-
 
 One potential shortcoming would be what would happen when ...
 
