@@ -11,8 +11,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
-[image2]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./images/solidWhiteCurve_out.jpg "Output image"
+[image2]: ./images/solidWhiteCurve_out_imp.jpg "Output image improved"
 
 ---
 
@@ -21,7 +21,6 @@ The goals / steps of this project are the following:
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline consisted of 5 steps.  
-  
   First, I convert the image to grayscale.  
   Second, I use "Canny Edge Detection" to the grayscale image.  
   Third, I cut off the triangle region with two lane lines.  
@@ -31,6 +30,8 @@ My pipeline consisted of 5 steps.
 In fourth step, the found lines are not perfect lines if lane lines are dotted lines. In order to draw lines in this case, I used the least squares method in draw_lines() function and detected fitting lines.
 
 ![alt text][image1]
+
+![alt text][image2]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
