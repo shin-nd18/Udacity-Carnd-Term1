@@ -36,13 +36,10 @@ In fourth step, the found lines are not perfect lines if lane lines are dotted l
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-One potential shortcoming would be what would happen when ...
-
-Another shortcoming could be ...
-
+A potential shortcoming is unsteadiness of the front edge of lines.
+This phenomenon happens when this code applies to videos.
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+Reasons of that potential shortcoming will be that the shape of lines vary every second in videos.
+A possible improvement would be to set appropriate cut off region. In this code the cut off region is triangle but setting the region as trapezoid may resolve this problem.
