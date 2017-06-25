@@ -21,6 +21,7 @@ The goals / steps of this project are the following:
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline consisted of 5 steps.  
+  
   First, I convert the image to grayscale.  
   Second, I use "Canny Edge Detection" to the grayscale image.  
   Third, I cut off the triangle region with two lane lines.  
